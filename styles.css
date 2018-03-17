@@ -1,0 +1,23 @@
+body {
+  background: url('http://ichef.bbci.co.uk/news/976/cpsprodpb/0347/production/_92593800_gettyimages-482923234.jpg') !important;
+  font-family: fantasy !important;
+}
+
+h1,h2 {
+    font-family: fantasy !important;
+}
+
+#masthead,
+#primary {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  background-color: #fff;
+  padding: 20px !important;
+}
+#masthead {
+  background: none;
+}
+#masthead img, #primary img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
