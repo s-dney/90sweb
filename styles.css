@@ -1,32 +1,7 @@
-body,div,h2,h3,h4,h5,h6,p,input{
-/* background: url('https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/background_clouds_2.gif') !important; */
-  font-family: "Hobo Std" !important;
-
-}
-
-li{
-  background-color: lightblue;
-}
-
 li {
   list-style-image: url('https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/rubber-ducks-final.jpg');
 }
 
-
-#masthead,
-#primary {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
-  background-color: #fff;
-  padding: 20px !important;
-}
-#masthead {
-  background: none;
-}
-#masthead img, #primary img {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
-}
 marquee{
 	color: #ffffff;
 	position: relative;
