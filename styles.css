@@ -18,3 +18,21 @@ body,div,h1,h2 {
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
+marquee{
+	color: #ffffff;
+	position: relative;
+	z-index: 999;
+	position: fixed;
+	top: 0;
+}
+/* 
+#marqimg{
+	position: fixed;
+	top: -100;
+	left: 30;
+	width:"600";
+	height:"600";
+	direction: "down";
+
+}
+ */
