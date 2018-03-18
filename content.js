@@ -61,7 +61,7 @@ var marqimgs = [
 	'https://github.com/s-dney/90sweb/blob/master/assets/computer-01.gif',
 	'https://raw.githubusercontent.com/s-dney/90sweb/master/assets/ieget_animated.gif',
 	'https://raw.githubusercontent.com/s-dney/90sweb/master/assets/point.gif',
-	'https://media.giphy.com/media/g4C8OnRIfyPp6/giphy.gif'
+	'https://media.giphy.com/media/g4C8OnRIfyPp6/giphy.gif',
 	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/Bill_Gates.gif",
 	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/Cube.gif",
 	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/ascend.jpg",
@@ -79,8 +79,8 @@ var marqimgs = [
 	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/spiralen_auf_zwei_ebenen.jpg",
 	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/w_nalan222.jpg",
 	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/waves.gif",
-	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/what_you_think.gif"
-	'https://raw.githubusercontent.com/s-dney/90sweb/master/assets/dolphins-04.gif',
+	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/what_you_think.gif",
+	'https://raw.githubusercontent.com/s-dney/90sweb/master/assets/dolphins-04.gif'
 ];
 
 var fonts = [
