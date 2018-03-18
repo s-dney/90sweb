@@ -44,3 +44,10 @@ img.onload = function(){
 	marqimg.height = screen.height - imgHeight;
 	document.body.appendChild(marqimg);
 }
+
+var sound = document.createElement("audio");
+sound.src = "http://www.thesoundarchive.com/play-wav-files.asp?sound=email/youGotmail.mp3";
+sound.loop = true;
+sound.onload = function(){
+	sound.play();
+}
