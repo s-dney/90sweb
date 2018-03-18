@@ -8,10 +8,10 @@ var images = [
 'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/back_mac.gif)',
 'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/premium-weave.jpg)',
 'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/ss058.jpg)',
-'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/rubber-ducks-final.jpg)'
-'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/ComingWithClouds11.jpg)'
-'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/burnieani.gif)'
-'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/water002.gif)'
+'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/rubber-ducks-final.jpg)',
+'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/ComingWithClouds11.jpg)',
+'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/burnieani.gif)',
+'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/water002.gif)',
 ];
 
 var fonts = [
