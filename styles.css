@@ -3,12 +3,13 @@ li {
 }
 
 marquee{
-	color: #ffffff;
+	color: #00ff00;
 	position: relative;
 	z-index: 999;
 	position: fixed;
 	top: 0;
 	font-size: 24px;
+	font-weight: bold;
 }
 a{
 	position: relative;
