@@ -8,6 +8,10 @@ li{
   background-color: lightblue;
 }
 
+li {
+  list-style-image: url('https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/rubber-ducks-final.jpg');
+}
+
 
 #masthead,
 #primary {
