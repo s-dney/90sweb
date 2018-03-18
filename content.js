@@ -12,6 +12,7 @@ var images = [
 'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/ComingWithClouds11.jpg)',
 'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/burnieani.gif)',
 'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/water002.gif)',
+'url(https://raw.githubusercontent.com/s-dney/90sweb/master/assets/dolphins-04.gif)',
 ];
 
 var strings =[
