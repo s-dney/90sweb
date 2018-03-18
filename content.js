@@ -12,9 +12,20 @@ var images = [
 ];
 
 var fonts = [
-
-
+	'Times New Roman',
+	'Impact',
+	'Comic Sans MS'
 ];
+
+var randimage = images[Math.floor(Math.random() * images.length)];
+var randfont = fonts[Math.floor(Math.random() * fonts.length)];
+
+var x = document.querySelectorAll('p,li,h1,h2,h3,h4,h5,h6,div,body,input');
+var i;
+for (i = 0; i < x.length; i++) {
+    x[i].style.fontFamily = randfont;
+		x[i].style.backgroundImage = randimage;
+}
 
 var sounds = [
 "https://www.dialupsound.com/audio/dialup.mp3",
@@ -26,13 +37,6 @@ var sounds = [
 "https://www.myinstants.com/media/sounds/windows-95.mp3",
 "https://www.myinstants.com/media/sounds/audio_30.mp3"
 ];
-
-var randimage = images[Math.floor(Math.random() * images.length)];
-
-document.body.style.backgroundColor = "blue";
-//document.div.style.backgroundImage = randimage;
-//document.p.style.backgroundImage = randimage;
-document.body.style.backgroundImage = randimage;
 
 var marq = document.createElement("marquee");
 var text = document.createTextNode("Welcome To My Website!");
