@@ -4,7 +4,7 @@
 //}
 
 var marq = document.createElement("marquee");
-var text = document.createTextNode("This is a test marquee. kermitttttta");
+var text = document.createTextNode("Welcome To My Website!");
 marq.appendChild(text);
 marq.id = "marquee";
 document.body.appendChild(marq);
