@@ -1,7 +1,21 @@
-//var images = document.getElementsByTagName('img');
-//for (var i = 0, l = images.length; i < l; i++) {
-//	images[i].src = 'http://placekitten.com/' + images[i].width + '/' + images[i].height;
-//}
+var images = [
+'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/background_clouds_2.gif)',
+'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/0037wb.jpg)',
+'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/INSTANET.gif)',
+'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/bluebubblebg.jpeg)',
+'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/bg_stars.gif)',
+'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/best-of-bohemian-backgrounds-90s-background-tumblr-bohemian-backgrounds.gif)',
+'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/back_mac.gif)',
+'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/premium-weave.jpg)',
+'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/ss058.jpg)',
+'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/rubber-ducks-final.jpg)',
+];
+
+var randimage = images[Math.floor(Math.random() * images.length)];
+
+document.body.style.backgroundColor = "blue";
+
+document.body.style.backgroundImage = randimage;
 
 var marq = document.createElement("marquee");
 var text = document.createTextNode("Welcome To My Website!");
