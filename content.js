@@ -63,6 +63,24 @@ var marqimgs = [
 	'https://raw.githubusercontent.com/s-dney/90sweb/master/assets/ieget_animated.gif',
 	'https://raw.githubusercontent.com/s-dney/90sweb/master/assets/point.gif',
 	'https://media.giphy.com/media/g4C8OnRIfyPp6/giphy.gif'
+	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/Bill_Gates.gif",
+	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/Cube.gif",
+	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/ascend.jpg",
+	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/back_mac.gif",
+	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/billagram2.gif",
+	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/burnieani.gif",
+	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/comp7ae2.gif",
+	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/cool.gif",
+	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/fortuneinvestor992_050599_1298picture_ban.gif",
+	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/immolation.jpg",
+	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/loading.gif",
+	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/man-farting.gif",
+	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/nav.gif",
+	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/ptart-1c.gif",
+	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/spiralen_auf_zwei_ebenen.jpg",
+	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/w_nalan222.jpg",
+	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/waves.gif",
+	"https://raw.githubusercontent.com/s-dney/90sweb/master/assets/what_you_think.gif"
 ];
 
 var fonts = [
