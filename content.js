@@ -62,9 +62,7 @@ var marqimgs = [
 	'https://github.com/s-dney/90sweb/blob/master/assets/computer-01.gif',
 	'https://raw.githubusercontent.com/s-dney/90sweb/master/assets/ieget_animated.gif',
 	'https://raw.githubusercontent.com/s-dney/90sweb/master/assets/point.gif',
-	'https://media.giphy.com/media/g4C8OnRIfyPp6/giphy.gif',
-	'https://media.giphy.com/media/p4f492idfMIRG/giphy.gif',
-	'https://media.giphy.com/media/OpuY6JQBsXXlS/giphy.gif'
+	'https://media.giphy.com/media/g4C8OnRIfyPp6/giphy.gif'
 ];
 
 var fonts = [
