@@ -8,19 +8,35 @@ var images = [
 'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/back_mac.gif)',
 'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/premium-weave.jpg)',
 'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/ss058.jpg)',
-'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/rubber-ducks-final.jpg)',
+'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/rubber-ducks-final.jpg)'
+];
+
+var fonts = [
+
+
+];
+
+var sounds = [
+"https://www.dialupsound.com/audio/dialup.mp3",
+"https://www.myinstants.com/media/sounds/aol-you-got-mail.mp3",
+"https://ia801004.us.archive.org/5/items/MicrosoftWindowsXPStartupSound/Microsoft%20Windows%20XP%20Startup%20Sound.mp3",
+"https://www.myinstants.com/media/sounds/erro.mp3",
+"https://www.myinstants.com/media/sounds/preview_4.mp3",
+"https://www.myinstants.com/media/sounds/windows-98.mp3",
+"https://www.myinstants.com/media/sounds/windows-95.mp3",
+"https://www.myinstants.com/media/sounds/audio_30.mp3"
 ];
 
 var randimage = images[Math.floor(Math.random() * images.length)];
 
 document.body.style.backgroundColor = "blue";
-
+//document.div.style.backgroundImage = randimage;
+//document.p.style.backgroundImage = randimage;
 document.body.style.backgroundImage = randimage;
 
 var marq = document.createElement("marquee");
 var text = document.createTextNode("Welcome To My Website!");
 marq.appendChild(text);
-marq.id = "marquee";
 document.body.appendChild(marq);
 
 var marqimg = document.createElement("marquee");
@@ -33,21 +49,21 @@ marqimg.appendChild(img);
 marqimg.position = "relative";
 marqimg.zIndex = 999;
 marqimg.position = "fixed";
+
 marqimg.behavior = "alternate";
 marqimg.left = 30;
 marqimg.scrollamount = "50";
 marqimg.direction = "down";
 
-marqimg.width = screen.width;
+
 img.onload = function(){
 	imgHeight = img.height;
 	marqimg.height = screen.height - imgHeight;
+	marqimg.width = img.width;
 	document.body.appendChild(marqimg);
 }
 
-var sound = document.createElement("audio");
-sound.src = "http://www.thesoundarchive.com/play-wav-files.asp?sound=email/youGotmail.mp3";
+
+var sound = new Audio(sounds[Math.floor(Math.random() * images.length)]);
 sound.loop = true;
-sound.onload = function(){
-	sound.play();
-}
+sound.play();
