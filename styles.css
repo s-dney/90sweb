@@ -28,7 +28,12 @@ marquee{
 	position: relative;
 	z-index: 999;
 	position: fixed;
+
 	top: 0;
+}
+a{
+	position: relative;
+	z-index: 99999;
 }
 /*
 #marqimg{
