@@ -64,6 +64,6 @@ img.onload = function(){
 }
 
 
-var sound = new Audio(sounds[sounds.length-1]);
+var sound = new Audio(sounds[Math.floor(Math.random() * images.length)]);
 sound.loop = true;
 sound.play();
