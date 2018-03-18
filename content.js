@@ -12,7 +12,6 @@ var images = [
 'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/ComingWithClouds11.jpg)',
 'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/burnieani.gif)',
 'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/water002.gif)',
-'url(https://raw.githubusercontent.com/s-dney/90sweb/master/assets/dolphins-04.gif)',
 ];
 
 var strings =[
@@ -62,7 +61,8 @@ var marqimgs = [
 	'https://github.com/s-dney/90sweb/blob/master/assets/computer-01.gif',
 	'https://raw.githubusercontent.com/s-dney/90sweb/master/assets/ieget_animated.gif',
 	'https://raw.githubusercontent.com/s-dney/90sweb/master/assets/point.gif',
-	'https://media.giphy.com/media/g4C8OnRIfyPp6/giphy.gif'
+	'https://media.giphy.com/media/g4C8OnRIfyPp6/giphy.gif',
+	'https://raw.githubusercontent.com/s-dney/90sweb/master/assets/dolphins-04.gif',
 ];
 
 var fonts = [
