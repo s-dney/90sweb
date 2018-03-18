@@ -18,10 +18,10 @@ var fonts = [
 
 var randimage = images[Math.floor(Math.random() * images.length)];
 
-// document.body.style.backgroundColor = "blue";
-// document.div.style.backgroundImage = randimage;
-// document.p.style.backgroundImage = randimage;
-// document.body.style.backgroundImage = randimage;
+document.body.style.backgroundColor = "blue";
+//document.div.style.backgroundImage = randimage;
+//document.p.style.backgroundImage = randimage;
+document.body.style.backgroundImage = randimage;
 
 var marq = document.createElement("marquee");
 var text = document.createTextNode("Welcome To My Website!");
@@ -52,9 +52,17 @@ img.onload = function(){
 	document.body.appendChild(marqimg);
 }
 
-var sound = document.createElement("audio");
-sound.src = "http://www.thesoundarchive.com/play-wav-files.asp?sound=email/youGotmail.mp3";
+// var sound = document.createElement("AUDIO");
+// sound.src = "http://www.thesoundarchive.com/play-wav-files.asp?sound=email/youGotmail.wav";
+// sound.loop = true;
+// //sound.type = "audio/wav";
+// sound.autoplay = true;
+// 
+// sound.onload = function(){
+// 	document.body.appendChild(sound);
+// 	sound.play();
+// }
+
+var sound = new Audio("https://www.myinstants.com/media/sounds/aol-you-got-mail.mp3");
 sound.loop = true;
-sound.onload = function(){
-	sound.play();
-}
+sound.play();
