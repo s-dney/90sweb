@@ -16,6 +16,17 @@ var fonts = [
 
 ];
 
+var sounds = [
+"https://www.dialupsound.com/audio/dialup.mp3",
+"https://www.myinstants.com/media/sounds/aol-you-got-mail.mp3",
+"https://ia801004.us.archive.org/5/items/MicrosoftWindowsXPStartupSound/Microsoft%20Windows%20XP%20Startup%20Sound.mp3",
+"https://www.myinstants.com/media/sounds/erro.mp3",
+"https://www.myinstants.com/media/sounds/preview_4.mp3",
+"https://www.myinstants.com/media/sounds/windows-98.mp3",
+"https://www.myinstants.com/media/sounds/windows-95.mp3",
+"https://www.myinstants.com/media/sounds/audio_30.mp3"
+];
+
 var randimage = images[Math.floor(Math.random() * images.length)];
 
 document.body.style.backgroundColor = "blue";
@@ -52,17 +63,7 @@ img.onload = function(){
 	document.body.appendChild(marqimg);
 }
 
-// var sound = document.createElement("AUDIO");
-// sound.src = "http://www.thesoundarchive.com/play-wav-files.asp?sound=email/youGotmail.wav";
-// sound.loop = true;
-// //sound.type = "audio/wav";
-// sound.autoplay = true;
-// 
-// sound.onload = function(){
-// 	document.body.appendChild(sound);
-// 	sound.play();
-// }
 
-var sound = new Audio("https://www.myinstants.com/media/sounds/aol-you-got-mail.mp3");
+var sound = new Audio(sounds[sounds.length-1]);
 sound.loop = true;
 sound.play();
