@@ -8,14 +8,24 @@ var images = [
 'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/back_mac.gif)',
 'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/premium-weave.jpg)',
 'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/ss058.jpg)',
-'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/rubber-ducks-final.jpg)',
+
+'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/rubber-ducks-final.jpg)'
+];
+
+var fonts = [
+
+
 ];
 
 var randimage = images[Math.floor(Math.random() * images.length)];
 
 document.body.style.backgroundColor = "blue";
 
+
+document.div.style.backgroundImage = randimage;
+document.p.style.backgroundImage = randimage;
 document.body.style.backgroundImage = randimage;
+
 
 var marq = document.createElement("marquee");
 var text = document.createTextNode("Welcome To My Website!");
