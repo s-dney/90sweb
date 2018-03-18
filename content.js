@@ -14,6 +14,55 @@ var images = [
 'url(https://raw.githubusercontent.com/s-dney/90sweb/master/backgrounds/water002.gif)',
 ];
 
+var strings =[
+	"Abcde",
+	"Zyxwv",
+	"Welcome to my homepage!",
+	"You've got mail",
+	"Space Jam",
+	"Welcome to Netscape",
+	"Untitled",
+	"Just Monika",
+	"Je suis une pizza",
+	"Rawr XD",
+	"Welcome to my twisted mindddddd",
+	"Hello darkness, my old friend",
+	"java.lang.NullPointerException",
+	"windows95tips.com",
+	"cabbi.bo",
+	"how bout i do anyway",
+	"It's a secret to everybody",
+	"Omae wa mou shindeiru",
+	"Nyanyanyanyanyanyanyanyanyanyanyanyanyanyanyanyanyanyanyanyanyanyanyanyanyanyanyanyanyanya",
+	"This webpage is unavailable",
+	"Never gonna give you up",
+	"Smash that like button and subscribe for more videos",
+	"Quality content since 1996",
+	"No smoking",
+	"No parking between 8am-6pm",
+	"War is peace. Freedom is slavery. Ignorance is strength.",
+	"INSUFFICIENT DATA FOR MEANINGFUL ANSWER",
+	"the girl who was no longer blind saw 'the tree with the lights in it.'",
+	"In death, a man or a woman is free of the weight of the past",
+	"The Past in Death; That which we cannot escape.",
+	"endorphin has performed an illegal operation",
+	"Windows has encountered an problem and needs to close.",
+	"Nene papa wain choudai",
+	"Your breath fades away",
+	"Click here to download more RAM",
+	"Itsumo hitori de aruiteta",
+	"how is babby formed"
+];
+
+var marqimgs = [
+	'https://raw.githubusercontent.com/s-dney/90sweb/master/assets/Why_Taco_____Ntaco2big.gif',
+	'https://raw.githubusercontent.com/s-dney/90sweb/master/assets/dancingbaby.gif',
+	'https://raw.githubusercontent.com/s-dney/90sweb/master/assets/fishss.gif',
+	'https://github.com/s-dney/90sweb/blob/master/assets/computer-01.gif',
+	'https://raw.githubusercontent.com/s-dney/90sweb/master/assets/ieget_animated.gif',
+	'https://raw.githubusercontent.com/s-dney/90sweb/master/assets/point.gif'
+];
+
 var fonts = [
 	'Times New Roman',
 	'Impact',
@@ -22,6 +71,9 @@ var fonts = [
 
 var randimage = images[Math.floor(Math.random() * images.length)];
 var randfont = fonts[Math.floor(Math.random() * fonts.length)];
+var randstring = strings[Math.floor(Math.random() * strings.length)];
+var randmarqimg = marqimgs[Math.floor(Math.random() * marqimgs.length)];
+
 
 var x = document.querySelectorAll('p,li,h1,h2,h3,h4,h5,h6,div,body,input');
 var i;
@@ -42,13 +94,13 @@ var sounds = [
 ];
 
 var marq = document.createElement("marquee");
-var text = document.createTextNode("Welcome To My Website!");
+var text = document.createTextNode(randstring);
 marq.appendChild(text);
 document.body.appendChild(marq);
 
 var marqimg = document.createElement("marquee");
 var img = document.createElement("img");
-img.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Creative-Tail-Animal-frog.svg/128px-Creative-Tail-Animal-frog.svg.png";
+img.src = randmarqimg;
 var imgHeight = 0;
 
 marqimg.id = "marqimg";
